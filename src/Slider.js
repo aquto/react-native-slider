@@ -181,7 +181,7 @@ export default class Slider extends PureComponent {
     /**
      * The style applied to the optional text.
      */
-    textStyle: PropTypes.object,
+    textStyle: Text.propTypes.style,
   };
 
   static defaultProps = {
@@ -318,6 +318,7 @@ export default class Slider extends PureComponent {
       style,
       trackStyle,
       thumbStyle,
+      textStyle,
       ...otherProps,
     } = props;
 
