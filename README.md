@@ -92,7 +92,7 @@ onSlidingStart        | function | Yes      |                           | Callba
 onSlidingComplete     | function | Yes      |                           | Callback called when the user finishes changing the value (e.g. when the slider is released)
 style                 | [style](http://facebook.github.io/react-native/docs/view.html#style)    | Yes      |                           | The style applied to the slider container
 text                  | string   | Yes      |                           | Adds text below thumb.
-textStyle             | [style](http://facebook.github.io/react-native/docs/view.html#style)    | Yes      |                           | The style applied to the optional text (positioning relative to the thumb)
+textStyle             | [style](http://facebook.github.io/react-native/docs/text.html#style)    | Yes      |                           | The style applied to the optional text (positioning relative to the thumb)
 trackOffset           | number   | Yes      | undefined                 | Horizontal offset applied to the track. Does what a margin couldn't do because of the two tracks.
 trackStyle            | [style](http://facebook.github.io/react-native/docs/view.html#style)    | Yes      |                           | The style applied to the track
 thumbStyle            | [style](http://facebook.github.io/react-native/docs/view.html#style)    | Yes      |                           | The style applied to the thumb
